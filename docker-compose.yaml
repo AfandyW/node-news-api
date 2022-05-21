@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  redis:
+    container_name: redis-news
+    image: redis:6
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - 6379:6379
+    volumes:
+      - ./conf/redis.conf:/usr/local/etc/redis/redis.conf
+    
