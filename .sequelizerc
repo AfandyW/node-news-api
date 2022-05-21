@@ -1,7 +1,0 @@
-const path = require('path');
-
-module.exports = {
-  'config': path.resolve('./infra/db/pg', 'conn.json'),
-  'models-path': path.resolve('', 'models'),
-  'migrations-path': path.resolve('./infra/db/pg', 'migrations')
-};
