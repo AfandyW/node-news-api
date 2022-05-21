@@ -2,7 +2,24 @@
 
 Hello, ini adalah app news-api sederhana.
 
+## Tech Stack
+- nodejs
+- docker
+- mongodb
+- redis
 
+# Run App
+- Sesuaikan .env perangkat yang digunakan. Untuk mongoDB, bisa menggunakan yang sudah ada di .env 
+- (optional) untuk jalan redis di docker:
+    ```bash
+    docker-compose up
+    ```
+- Running App
+    ```bash
+    npm run start
+    ```
+# Test API - POSTMAN
+Didalam project ini terdapat file `news.postman_collection.json`. Import file tersebut ke postman
 
 # Endpoints
 ### Header: 
